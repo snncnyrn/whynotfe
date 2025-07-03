@@ -1,0 +1,9 @@
+.button {
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  padding: 0.5rem 0.75rem;
+
+  &:hover {
+    color: #fcfc28;
+  }
+}
