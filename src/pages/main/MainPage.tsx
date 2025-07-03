@@ -6,6 +6,7 @@ import Info from "../../components/info/Info";
 import Contact from "../../components/contact/Contact";
 
 const MainPage = () => {
+  //@ts-ignore
   const { setTheme, theme } = useTheme();
 
   const isLightTheme = theme === "light";
